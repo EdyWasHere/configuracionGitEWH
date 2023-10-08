@@ -59,6 +59,8 @@ instalacion de git y git bash
 	#se hace un guardado temporal para cambiar de rama por si nos 
 	#enontramos en medio desarrollo
 	    git stash
+	//listas los trabajos temporales
+	    git stash list
         //para ligar a github creas el repositorio y traes el comando que se crea
         //git remote add origin ....  y el git push -u origin main
         //se pega en el brench principal
