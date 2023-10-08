@@ -38,6 +38,7 @@ instalacion de git y git bash
         #crea un brench diferente al principal (rama)
             git checkout -b nombreDeRama
         #combinar cambios a rama principal
+            git merge nombreDeRama
         #revisas el contenido del archivo
             cat nombreDeArchivo
         //investiga el archivo .env   son variables de entorno
