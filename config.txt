@@ -25,4 +25,4 @@ instalacion de git y git bash
         #agrega todos los cambios al stage
             git add .
         #agregar archivos al commit (comprometer)
-            git commit "comentario relevante al cambio"
+            git commit -m "comentario relevante al cambio"
