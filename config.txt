@@ -20,9 +20,13 @@ instalacion de git y git bash
     //comandos dentro de git
         #revisa el estado del proyecto
             git status
+            git status -s
         #agregar los cambios al stage
             git add nombreDeArchivo.extension
         #agrega todos los cambios al stage
             git add .
         #agregar archivos al commit (comprometer)
             git commit -m "comentario relevante al cambio"
+        //investiga el archivo .env   son variables de entorno
+        #para ignorar archivos para que se guarden al repositorio
+        #es con .gitignore, se agrega y se hace un commit
