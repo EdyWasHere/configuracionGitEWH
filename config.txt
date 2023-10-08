@@ -42,8 +42,10 @@ instalacion de git y git bash
         #revisas el contenido del archivo
             cat nombreDeArchivo
         //para ligar a github creas el repositorio y traes el comando que se crea
-        //git remote add origin ....
+        //git remote add origin ....  y el git push -u origin main
         //se pega en el brench principal
+        //se puede actualizar inisiando sesion en github desde el navegador o 
+        //se crea un token con caducidad para el proyecto directamente en la terminal de git
         //investiga el archivo .env   son variables de entorno
         #para ignorar archivos para que se guarden al repositorio
         #es con .gitignore, se agrega y se hace un commit
