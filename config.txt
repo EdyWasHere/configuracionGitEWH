@@ -41,6 +41,7 @@ instalacion de git y git bash
             git merge nombreDeRama
         #revisas el contenido del archivo
             cat nombreDeArchivo
+        #recuerda que la documentacion esta en la pagina de git
         //para ligar a github creas el repositorio y traes el comando que se crea
         //git remote add origin ....  y el git push -u origin main
         //se pega en el brench principal
