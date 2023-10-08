@@ -38,7 +38,8 @@ instalacion de git y git bash
         #crea un brench diferente al principal (rama)
             git checkout -b nombreDeRama
         #combinar cambios a rama principal
-            
+        #revisas el contenido del archivo
+            cat nombreDeArchivo
         //investiga el archivo .env   son variables de entorno
         #para ignorar archivos para que se guarden al repositorio
         #es con .gitignore, se agrega y se hace un commit
