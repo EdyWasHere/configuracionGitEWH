@@ -1,0 +1,26 @@
+instalacion de git y git bash
+    //colocar tu nombre en la terminal y configuracion de bash
+        git config --global user.name "Edmundo Maciel Martínez"
+    //agregas el correo electronico
+        git config --global user.email edmundomacielmtz@hotmail.com
+    //configuracion del visual studio
+        git config --global core.editor "core --wait"
+    //revisa la configuracion que aparezca lo siguiente
+        [user]
+            name = Edmundo Maciel Martínez
+            email = edmundomacielmtz@hotmail.com
+        [init]
+            defaultBranch = main
+        [core]
+            editor = code --wait
+            autocrlf = true
+    //configuracion de los saltos de linea
+        git config --global core.autocrlf true   
+    #true es de windows e input es de mac/linux
+    //comandos dentro de git
+        #revisa el estado del proyecto
+            git status
+        #agregar los cambios al stage
+            git add nombreDeArchivo.extension
+        #agrega todos los cambios al stage
+            git add .
