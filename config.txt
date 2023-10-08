@@ -33,6 +33,8 @@ instalacion de git y git bash
             git diff --staged
         #muestra el historial de cambios
             git log --oneline
+        #muestra el historial completo de todos los cambios echos
+            git reflog
         #ver rama en la que te encuentras
             git Branch
         #crea un brench diferente al principal (rama)
