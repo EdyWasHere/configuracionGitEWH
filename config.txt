@@ -38,6 +38,7 @@ instalacion de git y git bash
         #ver rama en la que te encuentras
             git Branch
         #crea un brench diferente al principal (rama)
+	//el checkout descarga todo lo nuevo dentro de la rama
             git checkout -b nombreDeRama
 	#cambia entre ramas
 	   git switch nombre_de_rama
