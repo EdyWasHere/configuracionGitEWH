@@ -43,6 +43,10 @@ instalacion de git y git bash
 	#cambia entre ramas
 	   git switch nombre_de_rama
         #combinar cambios a rama principal
+	//actualizas la rama donde te ubicas
+	//puede existir conflictos por tocar lineas de codigo agenas o
+	//la misma linea de otra rama al solucionarlo solo debes quitar una de
+	//las dos para commitear y mergear de nuevo
             git merge nombreDeRama
         #revisas el contenido del archivo
             cat nombreDeArchivo
