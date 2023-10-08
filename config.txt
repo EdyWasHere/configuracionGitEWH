@@ -27,6 +27,10 @@ instalacion de git y git bash
             git add .
         #agregar archivos al commit (comprometer)
             git commit -m "comentario relevante al cambio"
+        #vista grafica de los cambios
+            git diff
+        #si se encuentra en staged la vista grafica es
+            git diff --staged
         //investiga el archivo .env   son variables de entorno
         #para ignorar archivos para que se guarden al repositorio
         #es con .gitignore, se agrega y se hace un commit
