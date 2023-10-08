@@ -61,6 +61,10 @@ instalacion de git y git bash
 	    git stash
 	//listas los trabajos temporales
 	    git stash list
+	//traes el stash
+	    git stash pop
+	//borras los trabajos en stash
+	    git stash drop
         //para ligar a github creas el repositorio y traes el comando que se crea
         //git remote add origin ....  y el git push -u origin main
         //se pega en el brench principal
