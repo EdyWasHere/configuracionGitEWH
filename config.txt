@@ -33,6 +33,12 @@ instalacion de git y git bash
             git diff --staged
         #muestra el historial de cambios
             git log --oneline
+        #ver rama en la que te encuentras
+            git Branch
+        #crea un brench diferente al principal (rama)
+            git checkout -b nombreDeRama
+        #combinar cambios a rama principal
+            
         //investiga el archivo .env   son variables de entorno
         #para ignorar archivos para que se guarden al repositorio
         #es con .gitignore, se agrega y se hace un commit
