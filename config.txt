@@ -24,3 +24,5 @@ instalacion de git y git bash
             git add nombreDeArchivo.extension
         #agrega todos los cambios al stage
             git add .
+        #agregar archivos al commit (comprometer)
+            git commit "comentario relevante al cambio"
