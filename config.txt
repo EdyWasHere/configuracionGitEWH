@@ -65,6 +65,10 @@ instalacion de git y git bash
 	    git stash pop
 	//borras los trabajos en stash
 	    git stash drop
+	#jalar solo el historial de cambios de github
+	    git fetch
+	#jala historial y archivos cambiados de github
+	    git pull
         //para ligar a github creas el repositorio y traes el comando que se crea
         //git remote add origin ....  y el git push -u origin main
         //se pega en el brench principal
